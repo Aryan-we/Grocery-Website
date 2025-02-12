@@ -716,26 +716,25 @@ html{
  } 
 }
 
-@media(max-width:900px){ 
- .features .box-container{
+@media(max-width:750px){ 
+ #features .box-container{
     border:0px solid;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(23rem,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));
     
 }
-.features .box-container .box h3{
+#features .box-container .box a{
 font-size :1rem ;
-line-height :.2;
-color:var(--black);
-
+margin-bottom: 3rem;
 
 }
-.features .box-container .box a{
-font-size :1rem ;
-margin-bottom: 4rem;
+#products .box-container{
+   height:90rem;
 
 }
-
+#blogs .box-container{
+    height:200rem;
+}
 }
 
 @media(max-width:1024px){
