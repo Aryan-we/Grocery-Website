@@ -661,8 +661,12 @@ color:var(--black);
      margin: 2rem;
     font-size: 4rem;
 }
+    .footer .box-container .box input{
+     padding: 1.5rem;
+    font-size:2rem;
+}
 
-    }
+    
 /* footer */
 @media (max-width:768px){
 #menu-btn{
