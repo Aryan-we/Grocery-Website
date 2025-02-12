@@ -716,14 +716,11 @@ html{
  } 
 }
 
-@media(max-width:450px){
- html{
-     font-size:50%;
- }   
+@media(max-width:900px){ 
  .features .box-container{
     border:0px solid;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));
     
 }
 .features .box-container .box h3{
