@@ -348,7 +348,7 @@ width:100%;
 .features .box-container{
     border:0px solid;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(30rem,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(27rem,1fr));
     
 }
 .features .box-container .box{
@@ -524,7 +524,7 @@ color:var(--black);
 .blog .box-container{
     border:0px solid;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(27rem,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(35rem,1fr));
     border-radius :.5rem;
     box-shadow:var(--box-shadow);
     height :85rem;
@@ -723,7 +723,7 @@ html{
  .features .box-container{
     border:0px solid;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));
     
 }
 .features .box-container .box h3{
