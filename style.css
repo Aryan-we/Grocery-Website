@@ -429,7 +429,7 @@ html{
 section {
     padding:2rem;
 }
-}
+
 
 /* categories */
 .categories .box-container{
@@ -658,7 +658,7 @@ color:var(--black);
   color:green;  
 }
 
-
+    }
 /* footer */
 @media (max-width:768px){
 #menu-btn{
