@@ -720,7 +720,7 @@ html{
  .features .box-container{
     border:0px solid;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(23rem,1fr));
     
 }
 .features .box-container .box h3{
@@ -733,7 +733,6 @@ color:var(--black);
 .features .box-container .box a{
 font-size :1rem ;
 margin-bottom: 4rem;
-
 
 }
 
