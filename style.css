@@ -478,9 +478,8 @@ padding :1rem 0;
 /* review */
 .review .box-container{
     border:0px solid;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(27rem,1fr));
    
 }
 .review .box-container .box{
