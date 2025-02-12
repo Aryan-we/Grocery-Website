@@ -730,10 +730,14 @@ margin-bottom: 3rem;
 }
 #products .box-container{
    height:90rem;
+   display:grid;
+   grid-template-columns:repeat(auto-fit,minmax(15rem,2fr));
 
 }
 #blogs .box-container{
     height:200rem;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,2fr));
 }
 }
 
